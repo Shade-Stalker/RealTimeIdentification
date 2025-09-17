@@ -1,2 +1,29 @@
 # RealTimeIdentification
 Real time identification of virus sequences during the process of nanopore sequencing.
+
+# 其他所需文件下载方式
+## 1. 运行环境
+miniconda3.tar.gz
+链接: https://pan.baidu.com/s/1q3nHc3FzJ7K92TdhKm5tgg 提取码: vsnx
+
+## 2.比对参考数据库
+Vertebrata_Vgenome.mmi (下载后放到db文件夹下)
+链接: https://pan.baidu.com/s/1Ig60DeGyM7IEyuSeAUI_jw 提取码: 6pvn
+
+# 使用方法
+1. 解压miniconda3.tar.gz到计算机中任意用于工作的文件夹
+2. 桌面右键打开终端，输入（path_to代表miniconda3所在的文件夹路径）：\
+```
+source path_to/miniconda3/bin/activate
+```
+回车
+3. 再输入：\
+```
+conda activate realtime
+```
+回车
+4. 再输入（path_to代表RealTimeIdentification所在的文件夹路径）：\
+```
+python3 path_to/RealTimeIdentification/RealTimeIdentification.py
+```
+回车
